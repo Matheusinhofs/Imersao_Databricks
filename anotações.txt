@@ -1,0 +1,49 @@
+- Imersão Databricks
+    - O que é um data lakehouse?
+        - O lakehouse armazena dados que pode ser estruturados e não estruturados, mas com uma camada de estruturação 
+    - O que é um data lake?
+        - É um local em que armazenamos dados estruturados e não estruturados, se mantendo todos em um mesmo lugar
+    
+    - Teremos nossa fonte de dados (Sistema de Vendas, API Bitcoin, API Yahoo)
+        - Para extrair podemos usar: Pentaho, SSIS, NiFi, Airbyte, Fivetrain, Script Python, Datafactory,... 
+    - Em seguida, o dado é armazenado no data lake, que normalmente é bem barato.
+    - Por último ele é salvo no lakehouse, com a estrutura medalhão (Bronze, Silver, Gold)
+        - A camada bronze deve ser a mesma que o sistema de transação, de forma que é possível realizar as querys na camada bronze
+    - O databricks ele se posiciona como uma plataforma em que você pode realizar tudo do seu processo de dados
+    - No catalog ele gerencia os dados
+    - No Job é onde orquestra e automatiza tarefas
+    - Compute é como irá rodar o spark
+    - Vários tipos de conectores (SAP, API, Databases,...)
+    - Notebook do Databriks roda alguns tipos de linguagens, incluindo Python
+    - Várias bibliotecas estão já instaladas
+    - Em seguida é criado o catálogo para o lakehouse. E dentro dele os schemas do modelo medalhão.
+    - O catálogo é a maior hierarquia dentro do databricks
+    - No databricks é possível criar acessos para as áreas de negócio de cada schema (Settings -> Identity and access -> Groups)
+    - O volume é um arquivo de protocolo de S3 (um storage) 
+    - Criamos os jobs que vão agendar quando o script vai rodar 
+    - Ele permite que seja escalável
+    - O storage é desvinculado da engine do databricks
+    - No databricks podemos criar jobs e pipelines, com o lakeflow por exemplo
+        - Lakeflow permite rodar tanto em python como em sql
+        - Com o SQL você pode indicar parâmetros para mudanças no schema, ou seja, toda vez que a tabela no sistema mudar, o que ele vai fazer
+        -         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
