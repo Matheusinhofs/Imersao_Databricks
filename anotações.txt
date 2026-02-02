@@ -26,7 +26,25 @@
     - No databricks podemos criar jobs e pipelines, com o lakeflow por exemplo
         - Lakeflow permite rodar tanto em python como em sql
         - Com o SQL você pode indicar parâmetros para mudanças no schema, ou seja, toda vez que a tabela no sistema mudar, o que ele vai fazer
-        -         
+    - O catalog do databricks permite que você possa comentar na tabela, identificar o tipo dela, ter uma amostra dos dados e etc.
+    - Muito útil para entendimento dos campos e valores da sua tabela
+    - Requisitos de projetos
+        - Buscar as tabelas utilizadas e entender os campos dela 
+        - Saber quais as funções das tabelas
+    - Projeto de dados é iniciado pela área de negócio, entendendo o que precisa e etc.
+    - Em seguida é necessário buscar as fontes, entender as tabelas e desenvolver seu projeto  
+    - Mapa de oportunidade - Velocidade vs confiança (e tem valor para cada coisa) 
+    - Ter um requisito de projeto longo para poder entregar um produto de dados 
+    - Além disso é importante definir quais entregas entram em cada parte da matriz de velocidade vs confiança
+    - Os que são lentos e tem pouca confiança podem gerar conflitos com o cliente/área
+    - Os que tem mais velocidade e confiança é positivo por gerar uma entrega mais direta
+    - Um bom requisito do projeto possui:
+        - Cabeçalho: com área de negócio, datas, status atual
+        - Contexto e impacto: definição do problema e desafios atuais, objetivo, impacto esperado, indicadores alvos
+        - Pontos de atenção: coisas que podem limitar o desenvolvimento do projeto
+    - Em seguida é definida a arquitetura medalhão
+    - Depois é feita a modelagem dos dados, definindo as tabelas que devem estar presentes em cada camada 
+    -  
 
 
 
