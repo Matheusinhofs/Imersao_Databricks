@@ -1,4 +1,7 @@
 - Imersão Databricks
+
+---- Aula 01
+
     - O que é um data lakehouse?
         - O lakehouse armazena dados que pode ser estruturados e não estruturados, mas com uma camada de estruturação 
     - O que é um data lake?
@@ -28,6 +31,9 @@
         - Com o SQL você pode indicar parâmetros para mudanças no schema, ou seja, toda vez que a tabela no sistema mudar, o que ele vai fazer
     - O catalog do databricks permite que você possa comentar na tabela, identificar o tipo dela, ter uma amostra dos dados e etc.
     - Muito útil para entendimento dos campos e valores da sua tabela
+    
+---- Aula 02    
+    
     - Requisitos de projetos
         - Buscar as tabelas utilizadas e entender os campos dela 
         - Saber quais as funções das tabelas
@@ -44,7 +50,11 @@
         - Pontos de atenção: coisas que podem limitar o desenvolvimento do projeto
     - Em seguida é definida a arquitetura medalhão
     - Depois é feita a modelagem dos dados, definindo as tabelas que devem estar presentes em cada camada 
-    -  
+
+    - Desafio Erathos 
+
+----- Aula 03
+    - 
 
 
 
