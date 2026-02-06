@@ -54,7 +54,9 @@
     - Desafio Erathos 
 
 ----- Aula 03
+    - Criamos os scripts via cursor para desenvolver o pipeline
     - 
+
 
 
 
